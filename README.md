@@ -32,6 +32,12 @@ Then open `http://localhost:4173`.
 
 ## Publish on GitHub Pages
 
-The project is intentionally dependency-free and can be served from the repository root. In the repository settings, open **Pages**, choose **Deploy from a branch**, select the published branch, and choose `/ (root)`. The site entry point is `index.html`.
+The portfolio is already merged into `main`, and `.github/workflows/pages.yml` is ready to deploy it. GitHub Pages must be enabled once in the repository settings:
+
+1. Open **Settings → Pages**.
+2. Under **Build and deployment → Source**, choose **GitHub Actions**.
+3. Open the **Actions** tab and re-run **Deploy portfolio to GitHub Pages** if GitHub does not start it automatically.
+
+The expected public URL is `https://rajputbrothers8184.github.io/Gx_Rajput/`. The site entry point is `index.html`.
 
 The GitHub link currently used in the site is `github.com/Rajputbrothers8184`. If the preferred GitHub profile username differs, update the link in `index.html` before publishing.
